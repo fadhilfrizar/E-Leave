@@ -9,6 +9,8 @@ import UIKit
 
 class LeaveCollectionCell: UICollectionViewCell {
 
+    @IBOutlet weak var leaveLabel: UILabel!
+    @IBOutlet weak var leavelButton: CheckBox!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
